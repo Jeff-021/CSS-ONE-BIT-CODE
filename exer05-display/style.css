@@ -1,0 +1,18 @@
+.inline {
+  display: inline;
+}
+/* modelo inline não aceita mudanças no top e nem no bottom, apenas lateralmente, inline não quebra linha e usa a largura minima, tags que são inline: div, span, p, main, strong, i, */
+.block {
+  display: block;
+}
+/* o block, ele pode ser totalmente mechido, tem a ocupação maxíma de largura (mesmo que não aja texto) */
+
+.inline-block {
+  display: inline-block;
+}
+h1 {
+  display: inline-block;
+  padding: 1px;
+  margin: 1px;
+}
+/* ele não quebra linha, mas pode ser mexido a vontade sem quebrar linha ao contrario do block */

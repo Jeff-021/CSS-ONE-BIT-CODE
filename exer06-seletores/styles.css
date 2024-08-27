@@ -1,0 +1,72 @@
+/* seletor universal, esse seletor aplicará em tdo site as conf que estão aqui */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* seletor de tag, basta apenas colocar uma(,) para aplicar, mas aí duas coisas podem ficar iguais, ex: cabeçalho e róda pé, pois as conf são compartilhadas */
+header,
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* seletor de elementos aninhados, esse espacço sem (,) sign que o a está dentro da tag nav, não importa se ´ha quebra de tags, ele estando dentro do nav ele sera modif, o (logo) no exemplo no navegador não esta sendo modificado pois a tag abaixo o anula) */
+nav a {
+  color: rgb(42, 165, 83);
+  margin: 12px;
+  padding-right: 3px;
+  display: inline-block;
+  width: 20px;
+}
+nav > a {
+  display: block;
+  color: #f5a623;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+/* seletor de filhos */
+
+/* seletor de classes */
+.laranja {
+  color: #f5a623;
+}
+.verde {
+  color: #27ae60;
+}
+
+.exemplo1 {
+  padding: 20px;
+  text-align: center;
+}
+
+/* combinação de seletores */
+.exemplo1 > * {
+  margin-top: 10px;
+}
+
+input {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* seletor de sequência */
+input + input {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h2 + p {
+  padding: 30px;
+}
+
+/* seletores de propriedade */
+input[name="email"] {
+  background-color: #f5a623;
+}
+
+input[type="password"] {
+  background-color: #27ae60;
+}
