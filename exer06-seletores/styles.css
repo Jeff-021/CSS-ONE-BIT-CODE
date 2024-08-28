@@ -13,18 +13,13 @@ footer {
 }
 
 /* seletor de elementos aninhados, esse espacço sem (,) sign que o a está dentro da tag nav, não importa se ´ha quebra de tags, ele estando dentro do nav ele sera modif, o (logo) no exemplo no navegador não esta sendo modificado pois a tag abaixo o anula) */
-nav a {
-  color: rgb(42, 165, 83);
-  margin: 12px;
-  padding-right: 3px;
-  display: inline-block;
-  width: 20px;
-}
+
 nav > a {
   display: block;
   color: #f5a623;
   padding: 20px;
   margin-right: 10px;
+  display: inline-block;
 }
 
 /* seletor de filhos */

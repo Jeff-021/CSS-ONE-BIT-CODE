@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  background-color: cadetblue;
+  color: aliceblue;
+  padding: 1em;
+  text-align: center;
+}
+
+.box {
+  /*esse seletor está mexendo em todas as boxes pois começam com box*/
+  border: 2px solid rgba(0, 0, 0, 0.562);
+  border-radius: 0.3em;
+  display: inline-block;
+  margin-top: 1.2em;
+  width: 5.3em;
+  text-align: center;
+}
+.px {
+  height: 32px;
+  width: 84px;
+}
+.rem {
+  /*um rem= 16px, o rem ele acompanha o valor da altura da fonte do pc do cliente, por padrao é 16px, mas se o cliente mudou o valor o rem acompanhará, o rem tbm pode ser numero real, só fazer 16* 5.3 que daria =84px*/
+  height: 2rem;
+  width: 5.3rem;
+}
+.em {
+  /*ele adapta com o tamanho da fonte, ele meio que faz uma borda automatica separando o conteudo da borda, se eu aumeto o tamanho da letra a borda tbm aumentaá auto...*/
+  height: 2em;
+  width: 5.3em;
+}
+main {
+  height: 100px;
+}
+.prcnt-33 {
+  height: 33%;
+}
+.prcnt-66 {
+  height: 66%;
+}
+.prcnt-100 {
+  height: 100%;
+}
+/*tenho q definir uma altura na tag pai que esses elementos estão, nesse exemplo a tag é main, ai o valor sera 33,66,100% da altura 100px*/
