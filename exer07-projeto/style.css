@@ -10,60 +10,79 @@ body {
   background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
   color: aliceblue;
   text-align: center;
-  width: 450px;
-  height: 270px;
+  width: 430px;
+  height: 250px;
   padding: 30px;
   margin: 55px;
+  cursor: grab; /*apena sum efeito visual com o mousse*/
+  border-radius: 8px;
+  border: 4px solid transparent;
 }
 .part2 {
   background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
   color: aliceblue;
   text-align: center;
-  width: 450px;
-  height: 270px;
+  width: 430px;
+  height: 250px;
   padding: 30px;
   margin: 55px;
   border: 4px solid rgb(55, 93, 218);
+  cursor: grab;
+  border-radius: 8px;
 }
 .part3 {
   background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
   color: aliceblue;
   text-align: center;
-  width: 450px;
-  height: 270px;
+  width: 430px;
+  height: 250px;
   padding: 30px;
   margin: 55px;
+  cursor: grab;
+  border-radius: 8px;
+  border: 4px solid transparent;
 }
 .part4 {
   background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
   color: aliceblue;
   text-align: center;
-  width: 450px;
-  height: 270px;
+  width: 430px;
+  height: 250px;
   padding: 30px;
   margin: 55px;
+  cursor: grab;
+  border-radius: 8px;
+  border: 4px solid transparent;
 }
 .part5 {
   background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
   color: aliceblue;
   text-align: center;
-  width: 450px;
-  height: 270px;
+  width: 430px;
+  height: 250px;
   padding: 30px;
   margin: 55px;
+  cursor: grab;
+  border: 4px solid transparent;
 }
 .part6 {
   background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
   color: aliceblue;
   text-align: center;
-  width: 450px;
-  height: 270px;
+  width: 430px;
+  height: 250px;
   padding: 30px;
   margin: 55px;
+  cursor: grab;
+  border: 4px solid transparent;
 }
-.part3 {
-  display: none;
-}
+
 .part5 {
   display: none;
+}
+h1 {
+  text-align: center;
+  background-color: #0d0d0e8a;
+  color: aliceblue;
+  display: block;
 }
