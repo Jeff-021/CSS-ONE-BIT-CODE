@@ -1,0 +1,23 @@
+header {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  /* text transform serve para deixar todas as letras do texto M, já o underline serve para deixar sublinhado */
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif, sans-serif;
+  font-weight: 700; /*ele afina a letra ou engrossa, o negrito é feito por aq*/
+}
+h2 {
+  font-size: 16px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic; /*para colocar italico*/
+  font-size: 20px;
+}
