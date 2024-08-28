@@ -1,0 +1,69 @@
+* {
+  display: inline-block;
+
+  /* display inline foi o resposavel para colocar as caixas uma do lado da outra, naturalmente seria uma debaixo da outra */
+}
+body {
+  background-color: rgb(211, 165, 181);
+}
+.part1 {
+  background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
+  color: aliceblue;
+  text-align: center;
+  width: 450px;
+  height: 270px;
+  padding: 30px;
+  margin: 55px;
+}
+.part2 {
+  background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
+  color: aliceblue;
+  text-align: center;
+  width: 450px;
+  height: 270px;
+  padding: 30px;
+  margin: 55px;
+  border: 4px solid rgb(55, 93, 218);
+}
+.part3 {
+  background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
+  color: aliceblue;
+  text-align: center;
+  width: 450px;
+  height: 270px;
+  padding: 30px;
+  margin: 55px;
+}
+.part4 {
+  background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
+  color: aliceblue;
+  text-align: center;
+  width: 450px;
+  height: 270px;
+  padding: 30px;
+  margin: 55px;
+}
+.part5 {
+  background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
+  color: aliceblue;
+  text-align: center;
+  width: 450px;
+  height: 270px;
+  padding: 30px;
+  margin: 55px;
+}
+.part6 {
+  background-image: linear-gradient(to bottom, #03548f, #058dc7, #05b4eb);
+  color: aliceblue;
+  text-align: center;
+  width: 450px;
+  height: 270px;
+  padding: 30px;
+  margin: 55px;
+}
+.part3 {
+  display: none;
+}
+.part5 {
+  display: none;
+}

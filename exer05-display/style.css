@@ -15,4 +15,4 @@ h1 {
   padding: 1px;
   margin: 1px;
 }
-/* ele não quebra linha, mas pode ser mexido a vontade sem quebrar linha ao contrario do block */
+/* ele não quebra linha, mas pode ser mexido a vontade sem quebrar linha ao contrario do block, e não usa a largura minima */
