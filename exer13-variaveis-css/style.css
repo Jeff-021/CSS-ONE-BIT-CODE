@@ -1,0 +1,37 @@
+/* sempre usar variaveis, pois se eu precisar mudar a cor do site, so ir nas variaveis e mudar uma unica vez! e sera aplicado nas outras */
+:root {
+  --cor-principal: #4f4ff3;
+  --cor-secundaria: rgb(207, 129, 55);
+  --cor-letra: aliceblue;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+}
+header {
+  background-color: var(--cor-principal);
+  color: var(--cor-letra);
+  text-align: center;
+  margin-bottom: 2em;
+  padding: 1.75em;
+}
+article {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-letra);
+  font-size: 1.25em;
+  padding: 1.5em;
+  text-align: center;
+  border: 0.25em solid var(--cor-principal);
+  border-radius: 1em;
+  margin-top: 3em;
+}
+div {
+  background-color: var(--cor-principal);
+  margin-top: 3em;
+  text-align: center;
+  font-size: 1.5em;
+  border: 0.25em solid var(--cor-principal);
+  border-radius: 1em;
+  color: var(--cor-letra);
+  padding: 1.75em;
+}

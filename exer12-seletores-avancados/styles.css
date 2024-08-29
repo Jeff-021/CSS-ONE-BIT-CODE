@@ -1,0 +1,14 @@
+/* os seletores que estão aqui servem quando eu não tiver acesso ao HTML, POIS PARA COLOCAR ID,CLASS EU PRECISO TER ACESSO AO HTML.
+
+- seletor :nth child() */
+h2:nth-child(9) {
+  background-color: cadetblue;
+  color: aliceblue;
+  /* ele é contato por tags, nao importa se tem tag br,p, se eu quiser mexer somente no h2, tenho q contar as outras tags e colocar o numero da tag h2 no () */
+}
+
+h2:hover {
+  background-color: chocolate;
+
+  /* da interacao ao passar o mousse */
+}
